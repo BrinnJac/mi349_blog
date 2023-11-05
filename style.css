@@ -70,16 +70,6 @@ body, h1, h2, h3, p, ul, li, form {
     margin: 10px 0;
   }
   
-  .blog-post p strong {
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .blog-post p em {
-    font-style: italic;
-    color: #777;
-  }
-  
   .blog-post img {
     max-width: 100%;
     height: auto;
