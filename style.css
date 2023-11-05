@@ -1,3 +1,4 @@
+/* Reset some default browser styles */
 body, h1, h2, h3, p, ul, li, form {
     margin: 0;
     padding: 0;
@@ -51,21 +52,6 @@ body, h1, h2, h3, p, ul, li, form {
     padding: 20px;
   }
   
-  .blog-post p {
-    font-size: 16px;
-    margin: 10px 0;
-  }
-  
-  .blog-post p strong {
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .blog-post p em {
-    font-style: italic;
-    color: #777;
-  }
-  
   .blog-post {
     background-color: #fff;
     padding: 20px;
@@ -82,6 +68,16 @@ body, h1, h2, h3, p, ul, li, form {
   .blog-post p {
     font-size: 16px;
     margin: 10px 0;
+  }
+  
+  .blog-post p strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .blog-post p em {
+    font-style: italic;
+    color: #777;
   }
   
   .blog-post img {
@@ -149,4 +145,6 @@ body, h1, h2, h3, p, ul, li, form {
       font-size: 14px;
     }
   }
+  
+  /* Add more media queries for smaller screens if needed */
   
