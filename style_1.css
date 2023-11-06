@@ -71,7 +71,7 @@
   
   /* Article Styles */
   .blog-post {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #333;
     padding-top: 20px;
     margin-top: 20px;
   }
@@ -82,7 +82,7 @@
   }
   
   table, th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #333;
   }
   
   th, td {
@@ -99,7 +99,8 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc; 
+    color: #fff;
+    border: 1px solid #333; 
   }
   
   .image-float {
@@ -117,7 +118,7 @@
 
   /* Links Styles */
   a {
-    color: #0073e6;
+    color: #E0D7FF;
     text-decoration: none;
   }
   
