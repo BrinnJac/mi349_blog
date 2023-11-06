@@ -61,12 +61,15 @@
     font-size: 24px;
     margin-bottom: 15px;
     text-align: center;
+    color:#fff;
+
   }
   
   p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 15px;
+    color: #fff;
   }
   
   /* Article Styles */
@@ -79,10 +82,11 @@
   table {
     width: 100%;
     border-collapse: collapse;
+    color:#fff;
   }
   
   table, th, td {
-    border: 1px solid #333;
+    border: 1px solid #fff;
   }
   
   th, td {
@@ -99,8 +103,8 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    color: #fff;
     border: 1px solid #333; 
+    color: #fff;
   }
   
   .image-float {
