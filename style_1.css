@@ -93,13 +93,13 @@
   /* styles.css */
   .image-and-text {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 800px;
-    margin: auto 0;
+    margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    margin-bottom: 20px; 
+    border: 1px solid #ccc; 
   }
   
   .image-float {
