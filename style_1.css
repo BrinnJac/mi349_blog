@@ -72,6 +72,13 @@
     color: #fff;
   }
   
+  h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #fff;
+  }
+  
   /* Article Styles */
   .blog-post {
     border-top: 1px solid #333;
