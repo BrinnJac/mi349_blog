@@ -9,7 +9,7 @@
   
   /* Set a background color for the body */
   body {
-    background-color: #f0f0f0;
+    background-color: #333;
     font-family: Arial, sans-serif;
   }
   
@@ -130,12 +130,6 @@
   .text-column {
     flex-grow: 1; 
     text-align: left;
-  }
-
-  .bordered-box {
-    padding: 20px;
-    border: 2px solid #333;
-    color: #333;
   }
 
 
