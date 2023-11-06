@@ -93,8 +93,6 @@
   /* Updated Styles for Image and Text */
   .image-and-text {
     display: flex;
-    justify-content: space-between; /* Images and text should be separated */
-    align-items: center;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -103,12 +101,12 @@
   }
   
   .image-float {
-    max-width: 40%; /* Adjust the image width as needed */
+    max-width: 40%; 
   }
   
   .text-column {
     flex-grow: 1;
     text-align: left;
-    margin-left: 20px; /* Add some space between the image and text */
+    margin-left: 20px; 
   }
   
