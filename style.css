@@ -90,26 +90,36 @@
     text-align: left;
   }
   
- /* styles.css */
- .image-and-text {
+/*Can't figure out how to justify the image to the left and wrap the text*/
+.image-and-text {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #333;
+    border: 1px solid #333; 
     color: #fff;
   }
   
   .image-float {
-    max-width: 50%; 
-    margin-right: 20px;
+    max-width: 50%;
+    margin-right: 20px; 
   }
   
   .text-column {
-    flex-grow: 1;
+    flex-grow: 1; 
     text-align: left;
   }
+
+
+  /* Links Styles */
+  a {
+    color: #E0D7FF;
+    text-decoration: none;
+  }
   
+  a:hover {
+    text-decoration: underline;
+  }
