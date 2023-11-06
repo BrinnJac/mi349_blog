@@ -90,10 +90,21 @@
   }
 
   /* styles.css */
-.responsive-PersonalPicture {
-    max-width: 100%;
-    height: auto;
-}
+  .image-and-text {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 20px; 
+  }
+  
+  .image-float {
+    max-width: 50%;
+    margin-right: 20px; 
+  }
+  
+  .text-column {
+    flex-grow: 1; 
+  }
+  
 
 
   /* Links Styles */
