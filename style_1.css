@@ -29,12 +29,12 @@
   header p {
     font-size: 18px;
     margin-top: 10px;
-    text-align: center;
   }
 
   nav ul {
     list-style: none;
     margin-top: 20px;
+    text-align: center;
   }
 
   nav li {
