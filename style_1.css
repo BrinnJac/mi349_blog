@@ -108,6 +108,7 @@
   
   .text-column {
     flex-grow: 1; 
+    text-align: left;
   }
 
 
