@@ -29,6 +29,22 @@
   header p {
     font-size: 18px;
   }
+
+  nav ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  nav a {
+    color: #fff
+    text-decoration: none;
+    font-size: 16px;
+  }
   
   /* Main Content Styles */
   main {
