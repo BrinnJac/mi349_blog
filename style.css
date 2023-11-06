@@ -102,11 +102,16 @@
   
   .image-float {
     max-width: 40%; 
+    float: left;
   }
   
   .text-column {
     flex-grow: 1;
     text-align: left;
     margin-left: 20px; 
+  }
+
+  .text-column p {
+    max-width: 70%;
   }
   
