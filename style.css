@@ -126,7 +126,8 @@
   }
   
   .image-float_1 {
-    max-width: 50%;
+    max-width: 80%;
+    height: 0 auto;
     margin-right: 20px; 
   }
   
