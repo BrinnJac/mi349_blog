@@ -72,10 +72,11 @@
   }
 
   /* styles.css */
-.responsive-image {
+.responsive-PersonalPicture {
     max-width: 100%;
     height: auto;
 }
+
 
   /* Links Styles */
   a {
