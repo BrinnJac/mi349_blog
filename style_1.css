@@ -78,7 +78,14 @@
     text-align: center;
     color: #fff;
   }
-  
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+
   /* Article Styles */
   .blog-post {
     border-top: 1px solid #333;
