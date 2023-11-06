@@ -29,6 +29,7 @@ body, h1, h2, h3, p, ul, li, form {
   header p {
     font-size: 18px;
     margin-top: 10px;
+    text-align: center;
   }
   
   nav ul {
@@ -45,7 +46,6 @@ body, h1, h2, h3, p, ul, li, form {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
-    text-align: center;
   }
   
   /* Style the blog section */
