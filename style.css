@@ -91,10 +91,6 @@
   }
   
  /* styles.css */
-
-/* ... (previous CSS rules) ... */
-
-/* Updated Styles for Image and Text */
 .image-and-text {
     display: flex;
     max-width: 800px;
@@ -106,21 +102,24 @@
   
   .image-float {
     max-width: 40%;
+    display: flex; /* Use flex for image alignment */
+    justify-content: flex-start; /* Align the image to the left */
+    align-items: flex-start; /* Align the image to the top */
+  }
+  
+  /* Prevent the image from stretching */
+  .image-float img {
+    max-width: 100%; /* Set a maximum width for the image */
+    height: auto; /* Maintain the image's aspect ratio */
   }
   
   .text-column {
     flex-grow: 1;
     text-align: left;
     margin-left: 20px;
-    display: flex; /* Use flex for text alignment */
-    flex-direction: column; /* Stack text vertically */
-    align-items: flex-start; /* Align text to the left */
-  }
-  
-  /* Prevent the image from stretching */
-  .image-float img {
-    max-width: 100%;
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
   
   /* Adjust the text width as needed */
