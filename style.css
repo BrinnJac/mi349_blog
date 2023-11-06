@@ -93,37 +93,33 @@
  /* styles.css */
 .image-and-text {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #333;
+    border: 1px solid #333; 
     color: #fff;
   }
   
   .image-float {
-    max-width: 40%;
-    display: flex; /* Use flex for image alignment */
-    justify-content: flex-start; /* Align the image to the left */
-    align-items: flex-start; /* Align the image to the top */
-  }
-  
-  /* Prevent the image from stretching */
-  .image-float img {
-    max-width: 40%; /* Set a maximum width for the image */
-    height: 40%; /* Maintain the image's aspect ratio */
+    max-width: 50%;
+    margin-right: 20px; 
   }
   
   .text-column {
-    flex-grow: 1;
+    flex-grow: 1; 
     text-align: left;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  }
+
+
+  /* Links Styles */
+  a {
+    color: #E0D7FF;
+    text-decoration: none;
   }
   
-  /* Adjust the text width as needed */
-  .text-column p {
-    max-width: 100%; /* Adjust the maximum width for the text */
+  a:hover {
+    text-decoration: underline;
   }
-  
