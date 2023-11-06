@@ -90,18 +90,18 @@
   }
 
   /* styles.css */
-  .image-and-text {
+  .PersonalPicture-and-text {
     display: flex;
     align-items: center; 
     margin-bottom: 20px; 
   }
   
-  .image-float {
+  .PersonalPicture-float {
     max-width: 50%;
     margin-right: 20px; 
   }
   
-  .text-column {
+  .PersonalPicture-column {
     flex-grow: 1; 
   }
   
