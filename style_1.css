@@ -132,7 +132,11 @@
     text-align: left;
   }
 
-
+  .bordered-box {
+    padding: 20px;
+    border: 2px solid #333;
+    color: #333;
+  }
 
 
   /* Links Styles */
