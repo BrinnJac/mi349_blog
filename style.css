@@ -89,7 +89,7 @@
   
 /*Can't figure out how to justify the image to the left and wrap the text*/
 .h3_info {
-  margin-left: auto;
+  position: fixed; left: 20px;
 }
 .image-and-text {
     display: flex;
