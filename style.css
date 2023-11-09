@@ -1,13 +1,11 @@
-/* styles.css */
 
-/* Reset default margin and padding for all elements */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Set a background color for the body */
+  /* Background color */
   body {
     background-color: #333;
     font-family: Arial, sans-serif;
@@ -18,7 +16,7 @@
   header {
     background-color: #333;
     color: #fff;
-    padding: 2px;
+    padding: 20px;
     text-align: center;
   }
   
