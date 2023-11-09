@@ -61,7 +61,9 @@
     text-align: center;
     color: #fff;
   }
-  
+  h3 {
+    text-align: center;
+  }
   /* Article Styles */
   .blog-post {
     border-top: 1px solid #333;
@@ -93,9 +95,6 @@
 }
 .h3_info2 {
   position: relative; left: 80px;
-}
-.h3_title2 {
-  position: relative; left: 400px;
 }
 .image-and-text {
     display: flex;
