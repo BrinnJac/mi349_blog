@@ -94,6 +94,9 @@
 .h3_info2 {
   position: relative; left: 80px;
 }
+.h3_title2 {
+  justify-content: center;
+}
 .image-and-text {
     display: flex;
     flex-direction: column;
