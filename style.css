@@ -88,6 +88,9 @@
   }
   
 /*Can't figure out how to justify the image to the left and wrap the text*/
+.h3_info {
+  padding-left: 20px;
+}
 .image-and-text {
     display: flex;
     flex-direction: column;
